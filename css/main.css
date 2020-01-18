@@ -1,4 +1,4 @@
-/* @import "reset.css"; */
+@import "reset.css";
 @import "start.css";
 @import "about.css";
 @import "works_D.css";
@@ -7,6 +7,10 @@
 
 section {
   overflow: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  z-index: 10;
+  position: relative;
 }
 
 body {
