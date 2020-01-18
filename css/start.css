@@ -1,3 +1,89 @@
 #start_track {
   display: none;
 }
+
+.start_start {
+  height: 100vh;
+  transform: translateX(-30%);
+}
+
+.start_title {
+  position: absolute;
+  color: white;
+  font-size: 36px;
+  line-height: 36px;
+  position: absolute;
+  top: 213px;
+  left: 84px;
+  font-family: sans-serif;
+  text-decoration: underline;
+}
+
+.start_span {
+  position: relative;
+  left: 80px;
+  font-style: italic;
+}
+
+.start_anon {
+  position: relative;
+  left: 20px;
+}
+
+.start_nav {
+  position: fixed;
+  top: 10px;
+  z-index: 10000000000000000;
+}
+
+.start_nav_ul {
+  list-style: none;
+  position: relative;
+  right: 30px;
+  font-size: 18px;
+  color: red !important;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: sans-serif;
+  bottom: 12px;
+}
+
+.start_nav a {
+  color: red;
+  cursor: pointer;
+}
+
+.start_mark {
+  background-color: white;
+}
+
+.start_nav li:nth-child(2) {
+  position: relative;
+  top: 3px;
+}
+
+.start_nav li:nth-child(3) {
+  position: relative;
+  top: 3px;
+}
+
+.start_burger_gif {
+  height: 54px;
+  width: 96px;
+  position: relative;
+  left: 10px;
+}
+
+.start_menu {
+  position: relative;
+  left: 36px;
+  top: 52px;
+  z-index: 2;
+  text-decoration: underline;
+  color: black;
+  text-shadow:
+   -1px -1px 3px #00ff29,
+    1px -1px 3px #00ff29,
+    -1px 1px 3px #00ff29,
+     1px 1px 3px #00ff29;
+}
