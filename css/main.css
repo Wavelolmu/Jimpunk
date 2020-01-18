@@ -5,6 +5,10 @@
 @import "works_S.css";
 @import "us.css";
 
+section {
+  overflow: auto;
+}
+
 body {
 
   margin: 0;
