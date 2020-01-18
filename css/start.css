@@ -45,6 +45,7 @@
   text-decoration: underline;
   font-style: italic;
   font-family: sans-serif;
+  bottom: 12px;
 }
 
 .start_nav a {
@@ -67,5 +68,22 @@
 }
 
 .start_burger_gif {
+  height: 54px;
+  width: 96px;
+  position: relative;
+  left: 10px;
+}
 
+.start_menu {
+  position: relative;
+  left: 36px;
+  top: 52px;
+  z-index: 2;
+  text-decoration: underline;
+  color: black;
+  text-shadow:
+   -1px -1px 3px #00ff29,
+    1px -1px 3px #00ff29,
+    -1px 1px 3px #00ff29,
+     1px 1px 3px #00ff29;
 }
