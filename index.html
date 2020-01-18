@@ -46,8 +46,14 @@ window.onload = function() {
       <div class="works__group1">
         <div class="works__group_black">
           <h6 class="works__group_text1">des des des</h6>
-          <video src="img/media/video1.mov" autoplay poster="" class="works__group1__video">
+          <video id="dd" src="img/media/video1.mov" autoplay poster="" class="works__group1__video">
           </video>
+          <script>
+            window.onload = function () {
+              let video = document.getElementById('dd')
+              video.play()
+            }
+          </script>
           <video src="videofile.ogg" autoplay poster="posterimage.jpg">
 
           </video>
@@ -230,7 +236,7 @@ window.onload = function() {
         <img src="img/us/dasha.svg">
         <div class="black"></div>
       </div>
-      
+
     </section>
 
   </body>
