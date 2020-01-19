@@ -103,6 +103,18 @@ width: 80%;
   transform: translateX(-20%);
 }
 
+/* footer */
+
+.footer__s {
+  margin-top: 10vh;
+  animation: colors 3s linear infinite;
+}
+
+.footer__slash {
+  animation: colors 3s linear infinite;
+}
+
+
 @keyframes colors {
   0% {
     color: #FF0000;
