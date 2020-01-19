@@ -6,14 +6,123 @@
 .works__group1 {
   background: #000;
   width: 100%;
-  height: 48vh;
+  height: 56vh;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
 }
 
 .works__group_text1 {
   font-size: 12px;
   color: #0028F5;
+  transform: translateX(77vw) translateY(90vw);
+  animation: colors 2s linear infinite;
 }
 
-.works__group1__video {
-  width: 80vw;
+.works__group_text2 {
+  font-size: 12px;
+  color: #0028F5;
+  transform: translateX(77vw) translateY(88vw);
+  animation: colors 2s linear infinite;
+}
+
+.works__group_text3 {
+  font-size: 12px;
+  color: #0028F5;
+  transform: translateX(73vw) translateY(81vw);
+  animation: colors 2s linear infinite;
+}
+
+.works__group_text3_3 {
+  font-size: 12px;
+  color: #0028F5;
+  transform: translateX(7vw) translateY(81vw);
+  animation: colors 2s linear infinite;
+  text-decoration: underline;
+}
+
+.works__sim {
+  font-size: 36px;
+  color: #fff;
+  font-family: monospace;
+  line-height: 30%;
+  padding: 50px;
+  position: absolute;
+  transform: translateY(278%) translateX(32%);
+  z-index: -1;
+}
+
+.works__group__gif {
+width: 80%;
+}
+
+.works__group__gif1_1 {
+  width: 80%;
+  transform: translateY(3vw) translateX(4vw);
+}
+
+.works__group__gif1_2 {
+  transform: translateX(10vw) translateY(-40vw);
+  width: 80%;
+}
+
+.works__group__gif1_3 {
+  transform: translateX(16vw) translateY(-83vw);
+  width: 80%;
+}
+
+.works__group__gif2 {
+  width: 80%;
+  transform: translateX(18%) translateY(38%);
+}
+
+.works__group__gif3 {
+  width: 80%;
+  transform: translateX(9%) translateY(51%);
+}
+
+.works__decorate {
+  width: 300px;
+  position: absolute;
+  left: -59px;
+  top: 51%;
+  z-index: -1;
+}
+
+.works__sim__big {
+  font-size: 144px;
+  width: 100%;
+  position: absolute;
+  top: 42%;
+  z-index: -1;
+}
+
+.works__men {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  transform: translateX(-20%);
+}
+
+@keyframes colors {
+  0% {
+    color: #FF0000;
+  }
+  17% {
+    color: #EBFF00;
+  }
+  34% {
+    color: #05FF00;
+  }
+  51% {
+    color: #00FFF0;
+  }
+  68% {
+    color: #1400FF;
+  }
+  85% {
+    color: #FF00D6;
+  }
+  100% {
+    color: #FF0000;
+  }
 }
