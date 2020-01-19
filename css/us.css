@@ -1,10 +1,101 @@
+/* -----tolya -----*/
+
+
+.us_tolya_box {
+  position: relative;
+}
+
+.us_tolya_photo {
+  position: absolute;
+  width: 216px;
+  height: 137px;
+  left: 141px;
+  top: 276px;
+}
+
+.us_tolya_name {
+  position: absolute;
+  width: 265px;
+  height: 162px;
+  left: 4px;
+  top: 219px;
+}
+
+
+.us_tolya_yellow {
+  position: absolute;
+  width: 302px;
+  height: 177px;
+  left: 0px;
+  top: 211px;
+  background: #FFFD38;
+}
+
+/* ----- sanya -----*/
+
+.us_sanya_box {
+  position: relative;
+}
+
+.us_sanya_photo {
+  position: absolute;
+  width: 168px;
+  height: 168px;
+  left: 8px;
+  top: 728px;
+}
+
+.us_sanya_name{
+  position: absolute;
+  width: 303px;
+  height: 101px;
+  left: 14px;
+  top: 711px;
+}
+
+.us_sanya_blue {
+  position: absolute;
+  width: 257px;
+  height: 149px;
+  left: 49px;
+  top: 700px;
+  background: #22C9FC;
+}
+
+/* ----- sanya -----*/
+
+.us_vitalya_red {
+  width: 262px;
+  height: 129px;
+  background: #FC0D1B;
+}
+
+.us_dasha_black {
+  width: 338px;
+  height: 287px;
+  background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .us_letters {
   position: absolute;
-  width: 200vw;
+  width: 400px;
 }
-
-.us_tolya {
-  margin: 100px;
-}
-
-.us_tolya 
