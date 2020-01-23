@@ -2,9 +2,24 @@
   text-decoration: underline;
 }
 
-.works__stars {
-  font-size: 50px;
+.works__h1 {
+  font-size: 6em;
+  position: absolute;
   font-family: monospace;
+  padding: 1.4em;
+  animation: colors 3s infinite;
+}
+
+.works__stars {
+  font-size: 3em;
+  text-decoration: none;
+  animation: traffic 8s linear infinite;
+}
+
+.works__stars2 {
+  font-size: 3em;
+  text-decoration: none;
+  animation: traffic 7s linear reverse infinite;
 }
 
 .works__group1 {
@@ -170,4 +185,14 @@ width: 80%;
   100% {
     color: #FF0000;
   }
+}
+
+@keyframes traffic {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+
 }
