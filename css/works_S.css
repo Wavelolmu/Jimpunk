@@ -1,3 +1,7 @@
+#works {
+  text-decoration: underline;
+}
+
 .works__stars {
   font-size: 50px;
   font-family: monospace;
@@ -10,6 +14,7 @@
   margin-top: 20vh;
   margin-bottom: 20vh;
 }
+
 
 .works__group_text1 {
   font-size: 12px;
@@ -78,6 +83,21 @@ width: 80%;
 .works__group__gif3 {
   width: 80%;
   transform: translateX(9%) translateY(51%);
+}
+
+.works__group__gif4 {
+  width: 80%;
+  transform: translateX(6%) translateY(31%);
+}
+
+.works__group__gif6 {
+  width: 66%;
+  transform: translateX(7%) translateY(3%);
+}
+
+.works__group__img {
+  width: 80%;
+  transform: translateX(9%) translateY(41%);
 }
 
 .works__decorate {
