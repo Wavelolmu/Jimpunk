@@ -132,7 +132,7 @@ width: 80%;
   width: 300px;
   position: absolute;
   left: -59px;
-  top: 51%;
+  top: 32%;
   z-index: -1;
 }
 
@@ -148,7 +148,15 @@ width: 80%;
   position: absolute;
   top: 0;
   z-index: -1;
-  transform: translateX(-20%);
+  transform: translateX(-20%) translateY(36%);
+}
+
+.works__shrek {
+  position: absolute;
+  bottom: 10%;
+  transform: translateX(20%);
+  animation: colors 20s linear infinite;
+  z-index: -1;
 }
 
 /* footer */
