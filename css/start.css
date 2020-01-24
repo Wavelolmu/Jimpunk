@@ -53,6 +53,12 @@
   cursor: pointer;
 }
 
+.start_nav a:hover {
+  animation: colors 1s linear infinite;
+}
+
+
+
 .start_mark {
   background-color: white;
 }

@@ -22,6 +22,11 @@ body {
   background-size: 150%;
 }
 
+::selection {
+  background-color: red;
+  color: blue;
+}
+
 * {
   box-sizing: border-box;
 }
