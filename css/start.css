@@ -26,7 +26,9 @@
 
 .start_anon {
   position: relative;
-  left: 20px;
+  left: 24px;
+  font-family: serif;
+  font-size: 40px;
 }
 
 .start_nav {
@@ -52,6 +54,12 @@
   color: red;
   cursor: pointer;
 }
+
+.start_nav a:hover {
+  animation: colors 1s linear infinite;
+}
+
+
 
 .start_mark {
   background-color: white;
