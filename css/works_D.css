@@ -9,6 +9,8 @@
   color: #0028F5;
   transform: translateX(77vw) translateY(90vw);
   animation: colors 2s linear infinite;
+  z-index: 1;
+  top: 38%;
 }
 
 .works__group2 {
@@ -193,7 +195,7 @@
 .text_8 {
   position: absolute;
   z-index: -1;
-  top: 27%;
+  top: 22%;
 }
 .text_9 {
   position: absolute;
