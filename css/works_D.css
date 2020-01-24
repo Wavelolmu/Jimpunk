@@ -168,5 +168,8 @@
 .text_4 {}
 .text_5 {}
 .text_7 {}
-.text_8 {}
+.text_8 {
+  position: absolute;
+  bottom: 0;
+}
 .text_9 {}
