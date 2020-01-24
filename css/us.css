@@ -1,6 +1,7 @@
 /* -----tolya -----*/
 
 
+
 .us_tolya_box {
   position: relative;
 }
@@ -62,15 +63,63 @@
   background: #22C9FC;
 }
 
-/* ----- sanya -----*/
+/* ----- vitalya -----*/
+
+.us_vitalya_box {
+  position: relative;
+}
+
+.us_vitalya_photo {
+  position: absolute;
+  width: 170px;
+  height: 291px;
+  left: 191px;
+  top: 1053px;
+}
+
+.us_vitalya_name {
+  position: absolute;
+  width: 303px;
+  height: 123px;
+  left: 2px;
+  top: 1138px
+}
 
 .us_vitalya_red {
+  position: absolute;
   width: 262px;
-  height: 129px;
+  height: 131px;
+  left: 0px;
+  top: 1126px;
   background: #FC0D1B;
 }
 
+/* ----- dasha -----*/
+
+.us_dasha_box {
+  position: relative;
+}
+
+.us_dasha_photo {
+  position: absolute;
+  width: 179px;
+  height: 251px;
+  left: 104px;
+  top: 1653px;
+
+}
+
+.us_dasha_name {
+  position: absolute;
+  width: 290px;
+  height: 124px;
+  left: 0px;
+  top: 1514px;
+
+}
+
 .us_dasha_black {
+  transform: translateY(263vh);
   width: 338px;
   height: 287px;
   background: black;

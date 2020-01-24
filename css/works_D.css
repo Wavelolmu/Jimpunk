@@ -148,7 +148,9 @@
 }
 
 .text_1 {
-
+  position: absolute;
+  z-index: -1;
+  top: 1%;
 }
 
 .text_2 {
@@ -157,7 +159,7 @@
   top: 30%;
   z-index: -1;
 }
-.text_6,
+
 .text_3 {
   position: absolute;
   top: 0;
@@ -165,11 +167,36 @@
   color: #4D30FF;
   width: 100vw;
 }
-.text_4 {}
-.text_5 {}
-.text_7 {}
+
+.text_4 {
+  position: absolute;
+  z-index: 1;
+  top: -29%;
+  width: 100vw;
+}
+.text_5 {
+  position: absolute;
+  z-index: 1;
+  top: -29%;
+  width: 100vw;
+}
+.text_6 {
+  position: absolute;
+  z-index: -1;
+  top: 2%;
+}
+}
+.text_7 {
+  position: absolute;
+  z-index: -1;
+}
 .text_8 {
   position: absolute;
-  bottom: 0;
+  z-index: -1;
+  top: 27%;
 }
-.text_9 {}
+.text_9 {
+  position: absolute;
+  z-index: -1;
+  top: 75%;
+}
