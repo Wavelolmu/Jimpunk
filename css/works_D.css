@@ -38,12 +38,26 @@
   margin-top: 29vh;
 }
 
-.text_1 {}
-.text_2 {}
-.text_3 {}
+.text_1 {
+
+}
+
+.text_2 {
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  z-index: -1;
+}
+.text_6,
+.text_3 {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  color: #4D30FF;
+  width: 100vw;
+}
 .text_4 {}
 .text_5 {}
-.text_6 {}
 .text_7 {}
 .text_8 {}
 .text_9 {}
