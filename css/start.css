@@ -4,7 +4,6 @@
 
 .start_start {
   height: 100vh;
-  transform: translateX(-30%);
 }
 
 .start_title {
@@ -13,8 +12,8 @@
   font-size: 36px;
   line-height: 36px;
   position: absolute;
-  top: 213px;
-  left: 84px;
+  top: 30vh;
+  left: 40vw;
   font-family: sans-serif;
   text-decoration: underline;
 }
@@ -27,7 +26,9 @@
 
 .start_anon {
   position: relative;
-  left: 20px;
+  left: 24px;
+  font-family: serif;
+  font-size: 40px;
 }
 
 .start_nav {
@@ -39,7 +40,8 @@
 .start_nav_ul {
   list-style: none;
   position: relative;
-  right: 30px;
+  left: 10px;
+  top: 2px;
   font-size: 18px;
   color: red !important;
   text-decoration: underline;
@@ -53,18 +55,24 @@
   cursor: pointer;
 }
 
+.start_nav a:hover {
+  animation: colors 1s linear infinite;
+}
+
+
+
 .start_mark {
   background-color: white;
 }
 
 .start_nav li:nth-child(2) {
   position: relative;
-  top: 3px;
+  top: 6px;
 }
 
 .start_nav li:nth-child(3) {
   position: relative;
-  top: 3px;
+  top: 12px;
 }
 
 .start_burger_gif {
@@ -77,7 +85,7 @@
 .start_menu {
   position: relative;
   left: 36px;
-  top: 52px;
+  top: 35px;
   z-index: 2;
   text-decoration: underline;
   color: black;
