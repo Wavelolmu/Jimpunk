@@ -22,8 +22,10 @@
   position: absolute;
   font-size: 12px;
   color: #0028F5;
-  transform: translateX(70vw) translateY(86vw);
+  transform: translateX(77vw) translateY(90vw);
   animation: colors 2s linear infinite;
+  z-index: 1;
+  top: 38%;
 }
 
 .works_group3 {
